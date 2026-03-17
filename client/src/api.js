@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://webka-pn5x.onrender.com',
+  baseURL: 'https://webka-r.onrender.com',
 });
 
 API.interceptors.request.use((config) => {
